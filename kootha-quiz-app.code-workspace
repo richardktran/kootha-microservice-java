@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "id-generation-service"
+		},
+		{
+			"name": "service-discovery",
+			"path": "service-discovery"
+		},
+		{
+			"name": "user-service",
+			"path": "user-service"
+		},
+		{
+			"name": "api-gateway",
+			"path": "api-gateway"
+		}
+	],
+	"settings": {
+		"java.configuration.updateBuildConfiguration": "automatic"
+	}
+}
