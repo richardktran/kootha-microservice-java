@@ -1,7 +1,5 @@
 package dev.richardktran.user_service.service;
 
-import java.util.UUID;
-
 import org.springframework.stereotype.Service;
 
 import dev.richardktran.user_service.client.IdGenerationClient;

@@ -12,6 +12,7 @@ import org.springframework.web.client.support.RestClientAdapter;
 import org.springframework.web.service.invoker.HttpServiceProxyFactory;
 
 import dev.richardktran.user_service.client.IdGenerationClient;
+import dev.richardktran.user_service.constant.ServiceName;
 import dev.richardktran.user_service.utils.ServiceDiscovery;
 
 @Configuration
@@ -22,7 +23,7 @@ public class RestClientConfig {
     @Bean
     public IdGenerationClient idGenerationClient() {
         RestClient restClient = RestClient.builder()
-                .baseUrl(serviceDiscovery.getServiceUrl("id-generation-service"))
+                .baseUrl(serviceDiscovery.getServiceUrl(ServiceName.ID_GENERATION_SERVICE))
                 .requestFactory(getClientRequestFactory())
                 .build();
         RestClientAdapter adapter = RestClientAdapter.create(restClient);
