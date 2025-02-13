@@ -38,6 +38,13 @@
             "request": "launch",
             "mainClass": "dev.richardktran.user_service.UserServiceApplication",
             "projectName": "user-service"
+        },
+        {
+            "type": "java",
+            "name": "QuizSessionServiceApplication",
+            "request": "launch",
+            "mainClass": "dev.richardktran.quiz_session_service.QuizSessionServiceApplication",
+            "projectName": "quiz-session-service"
         }
     ]
 }

@@ -47,6 +47,7 @@
 		<module>service-discovery</module>
 		<module>id-generation-service</module>
 		<module>user-service</module>
+		<module>quiz-session-service</module>
 	</modules>
 
 </project>
